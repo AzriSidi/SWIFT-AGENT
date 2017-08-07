@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\volley\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c6d6e1c266a9cb0f40e57ddb6bce651a1f172fe">
+        <dex dex="C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\client\build\intermediates\transforms\dex\debug\folders\1000\4\classes_7cecb6e4a2873caae03ffd3fc3199280a711bd8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\iDPProxy\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="35966e1b04fccc2e57bbe5489f664359147780c6">
+        <dex dex="C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\client\build\intermediates\transforms\dex\debug\folders\1000\4\classes_2c8b31e3525e930fe4106be79db71b903e7eb75b\classes.dex" />
+    </item>
+
+</items>

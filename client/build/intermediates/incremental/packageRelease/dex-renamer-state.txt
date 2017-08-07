@@ -1,0 +1,4 @@
+#Thu Aug 03 23:36:44 SGT 2017
+base.0=C\:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

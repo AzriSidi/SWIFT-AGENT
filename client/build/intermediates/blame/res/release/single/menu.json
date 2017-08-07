@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\entry.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\alert.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\pin_code.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\pin_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\register_successful.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\register_successful.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\notify.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\notify.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\authentication_error.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\authentication_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\options_menu.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\options_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\available_operations.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\available_operations.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\settings.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\agent_settings.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\agent_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\all_ready_registered.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\all_ready_registered.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\auth_sherlock_menu.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\auth_sherlock_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\sherlock_menu_byod.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\sherlock_menu_byod.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\log.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\log.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\notification.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\display_device_info.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\display_device_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\sherlock_menu_cope.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\sherlock_menu_cope.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\menu\\authentication.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\menu\\authentication.xml"
+    }
+]

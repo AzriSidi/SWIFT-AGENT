@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\raw\\truststore.bks",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\iDPProxy\\build\\intermediates\\bundles\\default\\res\\raw\\truststore.bks"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\raw\\keystore.bks",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\iDPProxy\\build\\intermediates\\bundles\\default\\res\\raw\\keystore.bks"
+    }
+]

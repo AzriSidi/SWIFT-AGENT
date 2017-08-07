@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\ic_bookmark.png",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\drawable-xxhdpi\\ic_bookmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\ic_logo_dark.png",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\drawable-xxhdpi\\ic_logo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\ic_check_default.png",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\drawable-xxhdpi\\ic_check_default.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\ic_logo.png",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\drawable-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\ic_check_selected.png",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\drawable-xxhdpi\\ic_check_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\repeat_bg.png",
+        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\drawable-xxhdpi\\repeat_bg.png"
+    }
+]
