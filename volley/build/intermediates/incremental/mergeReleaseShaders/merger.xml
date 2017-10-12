@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\volley\src\main\shaders"/></dataSet><dataSet config="release"><source path="C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\volley\src\release\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Plamera\Documents\SWIFT-AGENT-GIT\volley\src\main\shaders"/></dataSet><dataSet config="release"><source path="C:\Users\Plamera\Documents\SWIFT-AGENT-GIT\volley\src\release\shaders"/></dataSet></merger>

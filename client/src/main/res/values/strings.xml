@@ -66,7 +66,7 @@
     <string name="title_activity_available_operations">AvailableOperationsActivity</string>
     <string name="menu_item_operations">Operations</string>
     <string name="menu_item_pin">Change PIN</string>
-    <string name="menu_item_ip">Change Server Address</string>
+    <string name="menu_item_ip">Re-Enrolled User</string>
     <string name="menu_item_log">Debug Log</string>
     <string name="title_activity_alert">Message from EMM</string>
     <string name="device_admin_enable_alert">This will enable device administration</string>
@@ -329,11 +329,11 @@
     <string name="txt_skip_to_enrolling">Skip and go to Enrollment</string>
     <string name="toast_app_installation_failed">Application installation failed, please contact administrator</string>
     <string name="toast_app_removal_failed">Application removal failed, please contact administrator</string>
-    <string name="txt_register_success">Device successfully registered, click to un-register from the EMM</string>
+    <string name="txt_register_success">Device successfully registered</string>
     <string name="txt_unregister">Unregister</string>
     <string name="txt_enroll">Please click to enroll the device</string>
     <string name="txt_lblpin">Please enter a PIN code to make your device safe from critical operations</string>
-    <string name="button_unregister_text">Device successfully registered, click to unregister from the EMM</string>
+    <string name="button_unregister_text">Device successfully registered</string>
     <string name="txt_managed_profile_enable">Managed Profile is Enabled</string>
     <!-- APPLICATION MANAGER -->
     <string name="application_mgr_download_location">/Download/</string>

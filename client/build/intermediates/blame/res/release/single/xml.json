@@ -1,10 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\xml\\agent_device_admin.xml",
-        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\xml\\agent_device_admin.xml"
+        "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\release\\xml\\agent_device_admin.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\src\\main\\res\\xml\\agent_device_admin.xml"
     },
     {
-        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\xml\\share_paths.xml",
-        "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\xml\\share_paths.xml"
+        "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\release\\xml\\share_paths.xml",
+        "source": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\src\\main\\res\\xml\\share_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\release\\xml\\agent_device_admin.xml",
+        "source": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\xml\\agent_device_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\release\\xml\\share_paths.xml",
+        "source": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\xml\\share_paths.xml"
     }
 ]

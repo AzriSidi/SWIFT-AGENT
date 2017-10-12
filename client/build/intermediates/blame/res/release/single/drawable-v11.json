@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\drawable-v11\\abs__progress_medium_holo.xml",
+        "merged": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\release\\drawable-v11\\abs__progress_medium_holo.xml",
+        "source": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\drawable-v11\\abs__progress_medium_holo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\release\\drawable-v11\\abs__progress_medium_holo.xml",
         "source": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\drawable-v11\\abs__progress_medium_holo.xml"
     }
 ]

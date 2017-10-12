@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\iDPProxy\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\iDPProxy\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Plamera\Documents\SWIFT-AGENT-GIT\iDPProxy\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Plamera\Documents\SWIFT-AGENT-GIT\iDPProxy\src\debug\shaders"/></dataSet></merger>

@@ -122,9 +122,17 @@ public class AlreadyRegisteredActivity extends SherlockActivity implements APIRe
 		btnUnregister.setTag(TAG_BTN_UNREGISTER);
 		btnUnregister.setOnClickListener(onClickListenerButtonClicked);
 		unregisterLayout = (RelativeLayout) findViewById(R.id.unregisterLayout);
+	//	setContentView(R.layout.activity_already_registered);
+		//SuccessregisterLayout = (RelativeLayout) findViewById(R.id.successLayout);
+
 		if (Constants.HIDE_UNREGISTER_BUTTON) {
-			unregisterLayout.setVisibility(View.GONE);
-		}
+			btnUnregister.setVisibility(View.GONE);
+	//		btnUnregister.setVisibility(View.GONE);
+			/*SuccessregisterLayout.setVisibility(View.VISIBLE);
+		}else{
+			unregisterLayout.setVisibility(View.VISIBLE);
+			SuccessregisterLayout.setVisibility(View.GONE);
+		}*/}
 	}
 
 	private void startEvents() {

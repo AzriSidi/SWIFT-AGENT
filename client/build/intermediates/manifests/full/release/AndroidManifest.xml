@@ -20,7 +20,7 @@
     package="org.wso2.emm.agent"
     android:sharedUserId="org.wso2.emm.agent"
     android:versionCode="2"
-    android:versionName="2.0" >
+    android:versionName="2.0.1" >
 
     <uses-sdk
         android:minSdkVersion="17"

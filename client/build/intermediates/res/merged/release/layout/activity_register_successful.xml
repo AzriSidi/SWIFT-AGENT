@@ -63,7 +63,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="19dp"
                 android:background="@drawable/btn_orange"
-                android:text="@string/txt_unregister" />
+                android:text="@string/txt_unregister"/>
         </RelativeLayout>
     </RelativeLayout>
 

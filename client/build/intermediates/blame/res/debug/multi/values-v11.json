@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,

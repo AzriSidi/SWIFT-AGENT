@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\client\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\Plamera\\.android\\build-cache\\674a884e37dc41d9a5f5cf6cb547f075bf552983\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
         "source": "C:\\Users\\Plamera\\.android\\build-cache\\674a884e37dc41d9a5f5cf6cb547f075bf552983\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
     }
 ]

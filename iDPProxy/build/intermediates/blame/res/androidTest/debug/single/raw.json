@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\iDPProxy\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\truststore.bks",
+        "source": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\iDPProxy\\build\\intermediates\\bundles\\debug\\res\\raw\\truststore.bks"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\iDPProxy\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\keystore.bks",
+        "source": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\iDPProxy\\build\\intermediates\\bundles\\debug\\res\\raw\\keystore.bks"
+    },
+    {
         "merged": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\iDPProxy\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\keystore.bks",
         "source": "C:\\Users\\Plamera\\Desktop\\product-emm-master\\modules\\mobile-agents\\android\\client\\iDPProxy\\build\\intermediates\\bundles\\debug\\res\\raw\\keystore.bks"
     },

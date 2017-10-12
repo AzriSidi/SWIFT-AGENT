@@ -51,7 +51,7 @@ public class Constants {
 	// This is set to override the server host name retrieving screen. If overriding is not
 	// needed, set this to null.
 	//public static final String DEFAULT_HOST = null;
-	public static final String DEFAULT_HOST = "10.54.7.204:9763";
+	public static final String DEFAULT_HOST = "10.54.97.227:9763";
 	public static final String APP_MANAGER_HOST = null;
 	public static final String SYSTEM_SERVICE_PACKAGE = "org.wso2.emm.system.service";
 	public static final String AGENT_PACKAGE = "org.wso2.emm.agent";
@@ -61,10 +61,10 @@ public class Constants {
 
 	// This is used to skip the license
 	//public static final boolean SKIP_LICENSE = false;
-	public static final boolean SKIP_LICENSE = false;
-	public static final boolean HIDE_LOGIN_UI = false;
-	public static final boolean HIDE_UNREGISTER_BUTTON = false;
-	public static final boolean SKIP_WORK_PROFILE_CREATION = false;
+	public static final boolean SKIP_LICENSE = true;
+	public static final boolean HIDE_LOGIN_UI = true;
+	public static final boolean HIDE_UNREGISTER_BUTTON = true;
+	public static final boolean SKIP_WORK_PROFILE_CREATION = true;
 	public static final boolean HIDE_ERROR_DIALOG = false;
 
 	/**

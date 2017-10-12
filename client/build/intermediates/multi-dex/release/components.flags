@@ -1,5 +1,5 @@
--injars 'C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\client\build\intermediates\transforms\jarMerging\release\jars\1\1f\combined.jar'
--outjars 'C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\client\build\intermediates\multi-dex\release\componentClasses.jar'
+-injars 'C:\Users\Plamera\Desktop\SWIFT_AGENT\client\build\intermediates\transforms\jarMerging\release\jars\1\1f\combined.jar'
+-outjars 'C:\Users\Plamera\Desktop\SWIFT_AGENT\client\build\intermediates\multi-dex\release\componentClasses.jar'
 
 -libraryjars 'C:\Users\Plamera\AppData\Local\Android\Sdk\build-tools\25.0.0\lib\shrinkedAndroid.jar'
 
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration 'C:\Users\Plamera\Desktop\product-emm-master\modules\mobile-agents\android\client\client\build\intermediates\multi-dex\release\components.flags'
+-printconfiguration 'C:\Users\Plamera\Desktop\SWIFT_AGENT\client\build\intermediates\multi-dex\release\components.flags'
 
 
 -keep public class * extends android.app.Instrumentation {
