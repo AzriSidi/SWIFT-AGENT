@@ -13,7 +13,6 @@
 // this instead:
 //     include(":volley")
 //     project(':volley').buildFileName = 'rules.gradle'
-
 buildscript {
     repositories {
         jcenter()
@@ -22,17 +21,29 @@ buildscript {
         classpath 'com.android.tools.build:gradle:2.3.3'
     }
 }
-
 apply plugin: 'com.android.library'
-
 repositories {
     jcenter()
 }
-
 android {
+    signingConfigs {
+        release {
+            keyAlias 'android'
+            keyPassword 'android'
+            storeFile file('C:/OpenSSL-Win64/bin/platform.jks')
+            storePassword 'android'
+        }
+    }
     compileSdkVersion 22
     buildToolsVersion = '25.0.0'
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
 }
-
 apply from: 'rules.gradle'
 apply from: 'bintray.gradle'
+
+dependencies {
+}
