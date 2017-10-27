@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Plamera\Desktop\SWIFT_AGENT\iDPProxy\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="C:\Users\Plamera\Desktop\SWIFT_AGENT\iDPProxy\src\release\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Plamera\AndroidStudioProjects\SWIFT_AGENT\iDPProxy\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="C:\Users\Plamera\AndroidStudioProjects\SWIFT_AGENT\iDPProxy\src\release\jniLibs"/></dataSet></merger>

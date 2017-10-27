@@ -19,8 +19,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.wso2.emm.agent"
     android:sharedUserId="org.wso2.emm.agent"
-    android:versionCode="2"
-    android:versionName="2.0.1">
+    android:versionCode="4"
+    android:versionName="3.0.1">
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -81,7 +81,10 @@
             android:label="@string/title_activity_display_device_info"
             android:screenOrientation="unspecified"
             android:excludeFromRecents="true"></activity>
-
+        <service
+            android:name=".BroadcastService"
+            android:exported="true">
+        </service>
         <receiver
             android:name=".services.AgentDeviceAdminReceiver"
             android:permission="android.permission.BIND_DEVICE_ADMIN"

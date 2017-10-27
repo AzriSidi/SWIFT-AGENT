@@ -29,20 +29,43 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_marginTop="52dp"
-            android:padding="10dp">
-
+            android:padding="10dp"
+            android:layout_below="@+id/txtRegText"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/relativeLayout3">
             <Button
-                android:id="@+id/btnUnreg"
+                android:id="@+id/btnClose"
                 style="@style/ButtonText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dip"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
                 android:background="@drawable/btn_orange"
-                android:text="@string/button_unregister" />
-        </RelativeLayout>
+                android:text="Close" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:padding="10dp">
+                <Button
+                    android:id="@+id/btnUnreg"
+                    style="@style/ButtonText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/btn_orange"
+                    android:text="@string/button_unregister" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        <!--@string/button_unregister_text-->
         <TextView
             android:id="@+id/txtRegText"
             android:layout_width="wrap_content"
@@ -50,7 +73,7 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:text="@string/button_unregister_text"
+            android:text="Device already activated."
             android:textColor="#372c24"
             android:textSize="16sp" />
 

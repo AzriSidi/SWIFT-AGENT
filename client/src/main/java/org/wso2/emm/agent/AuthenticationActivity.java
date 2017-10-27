@@ -72,8 +72,8 @@ import java.util.Map;
  * and handles authentication.
  */
 public class AuthenticationActivity extends SherlockActivity implements APIAccessCallBack,
-		APIResultCallBack,
-		AuthenticationCallback{
+                                                                        APIResultCallBack,
+                                                                        AuthenticationCallback{
 	private Button btnRegister;
 	private EditText etUsername;
 	private EditText etDomain;
@@ -108,13 +108,13 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 		//etDomain.setText("swifttm.com.my");
 		//etDomain.setFocusable(false);
 		etUsername = (EditText) findViewById(R.id.etUsername);
-		//etUsername.setText("admin");
-		etUsername.setText(tel.getDeviceId().toString());
+        //etUsername.setText("admin");
+        etUsername.setText(tel.getDeviceId().toString());
 		Log.v("Username: ", etUsername.getText().toString());
 		//etUsername.setFocusable(false);
 		etPassword = (EditText) findViewById(R.id.etPassword);
 		//etPassword.setText("admin");
-		etPassword.setText(tel.getSimSerialNumber().toString());
+        etPassword.setText(tel.getSimSerialNumber().toString());
 		Log.v("Password: ", etPassword.getText().toString());
 		radioBYOD = (RadioButton) findViewById(R.id.radioBYOD);
 		loginLayout = (LinearLayout) findViewById(R.id.errorLayout);
@@ -196,14 +196,14 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 		public void onClick(View view) {
 
 			if (etUsername.getText() != null && !etUsername.getText().toString().trim().isEmpty() &&
-					etPassword.getText() != null && !etPassword.getText().toString().trim().isEmpty()) {
+			    etPassword.getText() != null && !etPassword.getText().toString().trim().isEmpty()) {
 
 				passwordVal = etPassword.getText().toString().trim();
 				usernameVal = etUsername.getText().toString().trim();
 				if (etDomain.getText() != null && !etDomain.getText().toString().trim().isEmpty()) {
 					usernameVal +=
 							getResources().getString(R.string.intent_extra_at) +
-									etDomain.getText().toString().trim();
+							etDomain.getText().toString().trim();
 				}
 
 				if (radioBYOD.isChecked()) {
@@ -216,18 +216,19 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 						!CommonUtils.isSystemAppInstalled(context)) {
 					showNoSystemAppDialog();
 				} else {
-					showAuthenticationDialog();
+					getClientCredentials();
+					//showAuthenticationDialog();
 				}
 
 			} else {
 				if (etUsername.getText() != null && !etUsername.getText().toString().trim().isEmpty()) {
 					Toast.makeText(context,
-							getResources().getString(R.string.toast_error_password),
-							Toast.LENGTH_LONG).show();
+					               getResources().getString(R.string.toast_error_password),
+					               Toast.LENGTH_LONG).show();
 				} else {
 					Toast.makeText(context,
-							getResources().getString(R.string.toast_error_username),
-							Toast.LENGTH_LONG).show();
+					               getResources().getString(R.string.toast_error_username),
+					               Toast.LENGTH_LONG).show();
 				}
 			}
 		}
@@ -278,7 +279,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 							Preference.putString(context, Constants.CLIENT_NAME, clientName);
 						}
 						if (clientId != null && !clientId.isEmpty() &&
-								clientSecret != null && !clientSecret.isEmpty()) {
+						    clientSecret != null && !clientSecret.isEmpty()) {
 							initializeIDPLib(clientId, clientSecret);
 						}
 					} catch (JSONException e) {
@@ -326,8 +327,8 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 			if (tenantDomain != null && !tenantDomain.toString().trim().isEmpty()) {
 				username =
 						etUsername.getText().toString().trim() +
-								context.getResources().getString(R.string.intent_extra_at) +
-								tenantDomain.toString().trim();
+						context.getResources().getString(R.string.intent_extra_at) +
+						tenantDomain.toString().trim();
 
 			} else {
 				username = etUsername.getText().toString().trim();
@@ -352,7 +353,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 
 	@Override
 	public void onAPIAccessReceive(String status) {
-		if (status != null) {
+        if (status != null) {
 			if (status.trim().equals(Constants.Status.SUCCESSFUL)) {
 
 				Preference.putString(context, Constants.USERNAME, username);
@@ -392,7 +393,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 		if(deviceType == null) {
 			deviceType = Constants.DEFAULT_OWNERSHIP;
 			Preference.putString(context, Constants.DEVICE_TYPE,
-					deviceType);
+			                     deviceType);
 		}
 
 		if (deviceType != null && Constants.OWNERSHIP_BYOD.equals(deviceType.trim())) {
@@ -402,9 +403,9 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 					@Override
 					public void onCancel(DialogInterface arg0) {
 						CommonDialogUtils.getAlertDialogWithOneButtonAndTitle(context,
-								getResources().getString(R.string.error_enrollment_failed_detail),
-								getResources().getString(R.string.error_enrollment_failed),
-								getResources().getString(R.string.button_ok), null);
+                              getResources().getString(R.string.error_enrollment_failed_detail),
+                              getResources().getString(R.string.error_enrollment_failed),
+                              getResources().getString(R.string.button_ok), null);
 					}
 				};
 
@@ -413,11 +414,11 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 					public void run() {
 						progressDialog =
 								CommonDialogUtils.showProgressDialog(context,
-										getResources().getString(
-												R.string.dialog_license_agreement),
-										getResources().getString(
-												R.string.dialog_please_wait),
-										cancelListener);
+								                                     getResources().getString(
+										                                     R.string.dialog_license_agreement),
+								                                     getResources().getString(
+										                                     R.string.dialog_please_wait),
+								                                     cancelListener);
 					}
 				});
 
@@ -452,9 +453,9 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 			ServerConfig utils = new ServerConfig();
 			utils.setServerIP(ipSaved);
 			CommonUtils.callSecuredAPI(AuthenticationActivity.this,
-					utils.getAPIServerURL(context) + Constants.LICENSE_ENDPOINT,
-					HTTP_METHODS.GET, null, AuthenticationActivity.this,
-					Constants.LICENSE_REQUEST_CODE
+			                           utils.getAPIServerURL(context) + Constants.LICENSE_ENDPOINT,
+			                           HTTP_METHODS.GET, null, AuthenticationActivity.this,
+			                           Constants.LICENSE_REQUEST_CODE
 			);
 		} else {
 			Log.e(TAG, "There is no valid IP to contact the server");
@@ -498,9 +499,9 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 			@Override
 			public void onCancel(DialogInterface arg0) {
 				CommonDialogUtils.getAlertDialogWithOneButtonAndTitle(context,
-						getResources().getString(R.string.error_enrollment_failed_detail),
-						getResources().getString(R.string.error_enrollment_failed),
-						getResources().getString(R.string.button_ok), null);
+	                                          getResources().getString(R.string.error_enrollment_failed_detail),
+	                                          getResources().getString(R.string.error_enrollment_failed),
+	                                          getResources().getString(R.string.button_ok), null);
 			}
 		};
 		AuthenticationActivity.this.runOnUiThread(new Runnable() {
@@ -508,11 +509,11 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 			public void run() {
 				progressDialog =
 						CommonDialogUtils.showProgressDialog(context,
-								getResources().getString(
-										R.string.dialog_sender_id),
-								getResources().getString(
-										R.string.dialog_please_wait),
-								cancelListener);
+						                                     getResources().getString(
+								                                     R.string.dialog_sender_id),
+						                                     getResources().getString(
+								                                     R.string.dialog_please_wait),
+						                                     cancelListener);
 			}
 		});
 
@@ -526,9 +527,9 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 			ServerConfig utils = new ServerConfig();
 			utils.setServerIP(ipSaved);
 			CommonUtils.callSecuredAPI(AuthenticationActivity.this,
-					utils.getAPIServerURL(context) + Constants.CONFIGURATION_ENDPOINT,
-					HTTP_METHODS.GET, null, AuthenticationActivity.this,
-					Constants.CONFIGURATION_REQUEST_CODE
+			                           utils.getAPIServerURL(context) + Constants.CONFIGURATION_ENDPOINT,
+			                           HTTP_METHODS.GET, null, AuthenticationActivity.this,
+			                           Constants.CONFIGURATION_REQUEST_CODE
 			);
 		} else {
 			Log.e(TAG, "There is no valid IP to contact the server");
@@ -559,7 +560,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 				String dynamicClientResponse = result.get(Constants.RESPONSE);
 				if (dynamicClientResponse != null) {
 					Preference.putString(context, getResources().getString(R.string.shared_pref_client_credentials),
-							dynamicClientResponse);
+					                     dynamicClientResponse);
 					startAuthentication();
 				}
 			} else {
@@ -592,7 +593,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 						JSONObject config = new JSONObject(configurationResponse);
 						if (!config.isNull(context.getString(R.string.shared_pref_configuration))) {
 							JSONArray configList = new JSONArray(config.getString(context.getString(R.string.
-									shared_pref_configuration)));
+					                                                                      shared_pref_configuration)));
 							for (int i = 0; i < configList.length(); i++) {
 								JSONObject param = new JSONObject(configList.get(i).toString());
 								if(param.getString(context.getString(R.string.shared_pref_config_key)).trim().equals(
@@ -600,20 +601,20 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 									String type = param.getString(context.getString(R.string.shared_pref_config_value)).trim();
 									if(type.equals(String.valueOf(Constants.NOTIFIER_CHECK))) {
 										Preference.putString(context, Constants.PreferenceFlag.NOTIFIER_TYPE,
-												Constants.NOTIFIER_GCM);
+										                     Constants.NOTIFIER_GCM);
 									}else{
 										Preference.putString(context, Constants.PreferenceFlag.NOTIFIER_TYPE,
-												Constants.NOTIFIER_LOCAL);
+										                     Constants.NOTIFIER_LOCAL);
 									}
 								} else if(param.getString(context.getString(R.string.shared_pref_config_key)).trim().
 										equals(context.getString(R.string.shared_pref_frequency)) && !param.getString(
 										context.getString(R.string.shared_pref_config_value)).trim().isEmpty()){
-									Preference.putInt(context, getResources().getString(R.string.shared_pref_frequency),
-											Integer.valueOf(param.getString(context.getString(R.string.shared_pref_config_value)).trim()));
+										Preference.putInt(context, getResources().getString(R.string.shared_pref_frequency),
+										                  Integer.valueOf(param.getString(context.getString(R.string.shared_pref_config_value)).trim()));
 								} else if(param.getString(context.getString(R.string.shared_pref_config_key)).trim().
 										equals(context.getString(R.string.shared_pref_gcm))){
-									Preference.putString(context, getResources().getString(R.string.shared_pref_sender_id),
-											param.getString(context.getString(R.string.shared_pref_config_value)).trim());
+										Preference.putString(context, getResources().getString(R.string.shared_pref_sender_id),
+									                     param.getString(context.getString(R.string.shared_pref_config_value)).trim());
 								}
 							}
 							String notifierType = Preference.getString(context, Constants.PreferenceFlag.NOTIFIER_TYPE);
@@ -655,7 +656,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 	private void setDefaultNotifier(){
 		Preference.putString(context, Constants.PreferenceFlag.NOTIFIER_TYPE, Constants.NOTIFIER_LOCAL);
 		Preference.putInt(context, getResources().getString(R.string.shared_pref_frequency),
-				Constants.DEFAULT_INTERVAL);
+		                  Constants.DEFAULT_INTERVAL);
 	}
 
 
@@ -671,12 +672,12 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 		if (result != null) {
 			responseStatus = result.get(Constants.STATUS);
 			if (Constants.Status.SUCCESSFUL.equals(responseStatus)) {
-				String licenseAgreement = result.get(Constants.RESPONSE);
+                		String licenseAgreement = result.get(Constants.RESPONSE);
 
 				if (licenseAgreement != null) {
 					Preference.putString(context,
-							getResources().getString(R.string.shared_pref_eula),
-							licenseAgreement);
+					                     getResources().getString(R.string.shared_pref_eula),
+					                     licenseAgreement);
 					showAgreement(licenseAgreement, Constants.EULA_TITLE);
 				} else {
 					CommonUtils.clearClientCredentials(context);
@@ -703,7 +704,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 			showEnrollementFailedErrorMessage();
 		}
 	}
-
+	
 	private void showAuthenticationDialog(){
 		StringBuilder messageBuilder = new StringBuilder();
 		messageBuilder.append(getResources().getString(R.string.dialog_init_middle));
@@ -713,11 +714,11 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 		messageBuilder.append(getResources().getString(R.string.dialog_init_end));
 		AlertDialog.Builder alertDialog =
 				CommonDialogUtils.getAlertDialogWithTwoButtonAndTitle(context,
-						getResources().getString(R.string.dialog_init_device_type),
-						messageBuilder.toString(),
-						getResources().getString(R.string.yes),
-						getResources().getString(R.string.no),
-						dialogClickListener, dialogClickListener);
+				                                                      getResources().getString(R.string.dialog_init_device_type),
+				                                                      messageBuilder.toString(),
+				                                                      getResources().getString(R.string.yes),
+				                                                      getResources().getString(R.string.no),
+				                                                      dialogClickListener, dialogClickListener);
 		alertDialog.show();
 	}
 
@@ -737,12 +738,12 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 		builder.setTitle(title);
 		builder.setCancelable(true);
 		builder.setPositiveButton(getResources().getString(R.string.button_ok),
-				new DialogInterface.OnClickListener() {
-					public void onClick(DialogInterface dialog, int id) {
-						cancelEntry();
-						dialog.dismiss();
-					}
-				}
+		                          new DialogInterface.OnClickListener() {
+			                          public void onClick(DialogInterface dialog, int id) {
+				                          cancelEntry();
+				                          dialog.dismiss();
+			                          }
+		                          }
 		);
 		AlertDialog alert = builder.create();
 		alert.show();
@@ -766,7 +767,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 				WebView webView = (WebView) dialog.findViewById(R.id.webview);
 
 				webView.loadDataWithBaseURL(null, message, Constants.MIME_TYPE,
-						Constants.ENCODING_METHOD, null);
+				                            Constants.ENCODING_METHOD, null);
 
 				Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
 				Button cancelButton = (Button) dialog.findViewById(R.id.dialogButtonCancel);
@@ -795,10 +796,10 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 					@Override
 					public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
 						if (keyCode == KeyEvent.KEYCODE_SEARCH &&
-								event.getRepeatCount() == Constants.DEFAILT_REPEAT_COUNT) {
+						    event.getRepeatCount() == Constants.DEFAILT_REPEAT_COUNT) {
 							return true;
 						} else if (keyCode == KeyEvent.KEYCODE_BACK &&
-								event.getRepeatCount() == Constants.DEFAILT_REPEAT_COUNT) {
+						           event.getRepeatCount() == Constants.DEFAILT_REPEAT_COUNT) {
 							return true;
 						}
 						return false;
@@ -831,7 +832,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 
 		Intent intentIP = new Intent(AuthenticationActivity.this, ServerDetails.class);
 		intentIP.putExtra(getResources().getString(R.string.intent_extra_from_activity),
-				AuthenticationActivity.class.getSimpleName());
+		                  AuthenticationActivity.class.getSimpleName());
 		intentIP.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intentIP);
 
@@ -846,7 +847,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 		boolean isReady = false;
 
 		if (etUsername.getText().toString().length() >= 1 &&
-				etPassword.getText().toString().length() >= 1) {
+		    etPassword.getText().toString().length() >= 1) {
 			isReady = true;
 		}
 
@@ -874,7 +875,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 				Preference.putString(context, Constants.PreferenceFlag.IP, null);
 				Intent intentIP = new Intent(AuthenticationActivity.this, ServerDetails.class);
 				intentIP.putExtra(getResources().getString(R.string.intent_extra_from_activity),
-						AuthenticationActivity.class.getSimpleName());
+				                  AuthenticationActivity.class.getSimpleName());
 				startActivity(intentIP);
 				return true;
 			default:
@@ -901,7 +902,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 			new DialogInterface.OnClickListener() {
 				@Override
 				public void onClick(DialogInterface dialog,
-									int which) {
+				                    int which) {
 					etUsername.setText(Constants.EMPTY_STRING);
 					etPassword.setText(Constants.EMPTY_STRING);
 					etDomain.setText(Constants.EMPTY_STRING);
@@ -913,17 +914,17 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 
 	/**
 	 * Shows enrollment failed error.
-	 */
+	 */		
 	private void showEnrollementFailedErrorMessage() {
 		CommonDialogUtils.stopProgressDialog(progressDialog);
 		CommonDialogUtils.getAlertDialogWithOneButtonAndTitle(context,
-				getResources().getString(
-						R.string.error_enrollment_failed),
-				getResources().getString(
-						R.string.error_enrollment_failed_detail),
-				getResources().getString(
-						R.string.button_ok),
-				senderIdFailedClickListener);
+                      getResources().getString(
+                              R.string.error_enrollment_failed),
+                      getResources().getString(
+                              R.string.error_enrollment_failed_detail),
+                      getResources().getString(
+                              R.string.button_ok),
+                      senderIdFailedClickListener);
 	}
 
 	/**
@@ -932,25 +933,25 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 	private void showInternalServerErrorMessage() {
 		CommonDialogUtils.stopProgressDialog(progressDialog);
 		CommonDialogUtils.getAlertDialogWithOneButtonAndTitle(context,
-				getResources().getString(
-						R.string.title_head_connection_error),
-				getResources().getString(
-						R.string.error_internal_server),
-				getResources().getString(
-						R.string.button_ok),
-				null);
+                      getResources().getString(
+                              R.string.title_head_connection_error),
+                      getResources().getString(
+                              R.string.error_internal_server),
+                      getResources().getString(
+                              R.string.button_ok),
+                      null);
 	}
-
+	
 	/**
 	 * Shows credentials error message for authentication.
 	 */
 	private void showAuthenticationError(){
 		CommonDialogUtils.stopProgressDialog(progressDialog);
 		CommonDialogUtils.getAlertDialogWithOneButtonAndTitle(context,
-				getResources().getString(R.string.title_head_authentication_error),
-				getResources().getString(R.string.error_authentication_failed),
-				getResources().getString(R.string.button_ok),
-				null);
+              getResources().getString(R.string.title_head_authentication_error),
+              getResources().getString(R.string.error_authentication_failed),
+              getResources().getString(R.string.button_ok),
+              null);
 	}
 
 	/**
@@ -959,13 +960,13 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 	private void showAuthCommonErrorMessage() {
 		CommonDialogUtils.stopProgressDialog(progressDialog);
 		CommonDialogUtils.getAlertDialogWithOneButtonAndTitle(context,
-				getResources().getString(
-						R.string.title_head_authentication_error),
-				getResources().getString(
-						R.string.error_for_all_unknown_authentication_failures),
-				getResources().getString(
-						R.string.button_ok),
-				null);
+                      getResources().getString(
+                              R.string.title_head_authentication_error),
+                      getResources().getString(
+                              R.string.error_for_all_unknown_authentication_failures),
+                      getResources().getString(
+                              R.string.button_ok),
+                      null);
 
 	}
 
@@ -975,7 +976,7 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 	 * @return JSON formatted string.
 	 * @throws AndroidAgentException
 	 */
-	private void getClientCredentials() {
+	public void getClientCredentials() {
 		String ipSaved = Constants.DEFAULT_HOST;
 		String prefIP = Preference.getString(context.getApplicationContext(), Constants.PreferenceFlag.IP);
 		if (prefIP != null) {
@@ -1026,9 +1027,9 @@ public class AuthenticationActivity extends SherlockActivity implements APIAcces
 	public void onAuthenticated(boolean status, int requestCode) {
 		if (requestCode == Constants.AUTHENTICATION_REQUEST_CODE) {
 			if (status &&
-					org.wso2.emm.agent.proxy.utils.Constants.Authenticator.AUTHENTICATOR_IN_USE.
-							equals(org.wso2.emm.agent.proxy.utils.Constants.Authenticator.
-									MUTUAL_SSL_AUTHENTICATOR)) {
+			    org.wso2.emm.agent.proxy.utils.Constants.Authenticator.AUTHENTICATOR_IN_USE.
+					    equals(org.wso2.emm.agent.proxy.utils.Constants.Authenticator.
+							           MUTUAL_SSL_AUTHENTICATOR)) {
 				if(Constants.SKIP_LICENSE){
 					checkManifestPermissions();
 				} else {

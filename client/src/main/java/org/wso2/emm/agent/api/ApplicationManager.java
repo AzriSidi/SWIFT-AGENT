@@ -176,6 +176,42 @@ public class ApplicationManager {
                 app.setIsRunning(isAppRunning(packageInfo.packageName));
                 appList.put(packageInfo.packageName, app);
             }
+
+            if (packageInfo.packageName.contentEquals("my.com.tm.swift")) {
+                app = new DeviceAppInfo();
+                app.setAppname(packageInfo.applicationInfo.
+                        loadLabel(packageManager).toString());
+                app.setPackagename(packageInfo.packageName);
+                app.setVersionName(packageInfo.versionName);
+                app.setVersionCode(packageInfo.versionCode);
+                app.setIsSystemApp(isSystemPackage(packageInfo));
+                app.setIsRunning(isAppRunning(packageInfo.packageName));
+                appList.put(packageInfo.packageName, app);
+            }
+
+            if (packageInfo.packageName.contentEquals("com.plamera.tmswiftlauncher")) {
+                app = new DeviceAppInfo();
+                app.setAppname(packageInfo.applicationInfo.
+                        loadLabel(packageManager).toString());
+                app.setPackagename(packageInfo.packageName);
+                app.setVersionName(packageInfo.versionName);
+                app.setVersionCode(packageInfo.versionCode);
+                app.setIsSystemApp(isSystemPackage(packageInfo));
+                app.setIsRunning(isAppRunning(packageInfo.packageName));
+                appList.put(packageInfo.packageName, app);
+            }
+
+            if (packageInfo.packageName.contentEquals("org.wso2.emm.agent")) {
+                app = new DeviceAppInfo();
+                app.setAppname(packageInfo.applicationInfo.
+                        loadLabel(packageManager).toString());
+                app.setPackagename(packageInfo.packageName);
+                app.setVersionName(packageInfo.versionName);
+                app.setVersionCode(packageInfo.versionCode);
+                app.setIsSystemApp(isSystemPackage(packageInfo));
+                app.setIsRunning(isAppRunning(packageInfo.packageName));
+                appList.put(packageInfo.packageName, app);
+            }
         }
         return appList;
     }

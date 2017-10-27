@@ -41,6 +41,7 @@ public class AgentReceptionActivity extends Activity {
     private static final int TAG_BTN_SKIP_PROFILE = 2;
     DevicePolicyManager manager;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         DeviceState state;

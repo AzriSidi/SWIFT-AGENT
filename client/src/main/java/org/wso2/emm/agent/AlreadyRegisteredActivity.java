@@ -62,10 +62,11 @@ public class AlreadyRegisteredActivity extends SherlockActivity implements APIRe
 	private Context context;
 	private Resources resources;
 	private ProgressDialog progressDialog;
-	private Button btnUnregister;
+	private Button btnUnregister,btnClose;
 	private TextView txtRegText;
 	private static final int TAG_BTN_UNREGISTER = 0;
 	private static final int TAG_BTN_RE_REGISTER = 2;
+	private static final int TAG_BTN_CLOSE = 3;
 	private boolean freshRegFlag = false;
 	private boolean isUnregisterBtnClicked = false;
 	private AlertDialog.Builder alertDialog;
@@ -122,6 +123,9 @@ public class AlreadyRegisteredActivity extends SherlockActivity implements APIRe
 		btnUnregister.setTag(TAG_BTN_UNREGISTER);
 		btnUnregister.setOnClickListener(onClickListenerButtonClicked);
 		unregisterLayout = (RelativeLayout) findViewById(R.id.unregisterLayout);
+		btnClose = (Button)findViewById(R.id.btnClose);
+		btnClose.setTag(TAG_BTN_CLOSE);
+		btnClose.setOnClickListener(onClickListenerButtonClicked);
 	//	setContentView(R.layout.activity_already_registered);
 		//SuccessregisterLayout = (RelativeLayout) findViewById(R.id.successLayout);
 
@@ -173,6 +177,12 @@ public class AlreadyRegisteredActivity extends SherlockActivity implements APIRe
 
 				case TAG_BTN_RE_REGISTER:
 					loadServerDetailsActivity();
+					break;
+
+				case TAG_BTN_CLOSE:
+					Intent intent = new Intent(Intent.ACTION_MAIN);
+					intent.addCategory(Intent.CATEGORY_HOME);
+					startActivity(intent);
 					break;
 
 				default:
@@ -377,6 +387,11 @@ public class AlreadyRegisteredActivity extends SherlockActivity implements APIRe
 				} else if (Constants.Status.SUCCESSFUL.equals(responseStatus) || Constants.Status.ACCEPT.equals(responseStatus)) {
 					if (Constants.DEBUG_MODE_ENABLED) {
 						Log.d(TAG, "Device has already enrolled");
+						if (isDeviceAdminActive()) {
+							freshRegFlag = false;
+							//loadServerDetailsActivity();
+							//startDeviceAdminPrompt(cdmDeviceAdmin);
+						}
 					}
 					if (isDeviceAdminActive()) {
 						startPolling();

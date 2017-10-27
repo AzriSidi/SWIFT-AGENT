@@ -46,6 +46,7 @@ public class ServerDetails extends Activity {
 	private Context context;
 	private DeviceState state;
 	private TextView txtSeverAddress;
+	Intent intent;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -121,6 +122,7 @@ public class ServerDetails extends Activity {
 	 * Validation done to see if the server IP field is properly
 	 * entered.
 	 */
+
 	private void enableSubmitIfReady() {
 
 		boolean isReady = false;
