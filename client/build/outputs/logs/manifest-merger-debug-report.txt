@@ -1,600 +1,631 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:19:1-245:12
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:19:1-248:12
 	package
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:20:5-33
-		INJECTED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:20:5-33
+		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
 	android:sharedUserId
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:21:5-46
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:21:5-46
 	android:versionName
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:23:5-30
-		INJECTED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:23:5-32
+		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:22:5-28
-		INJECTED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:22:5-28
+		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:19:11-69
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:19:11-69
 uses-sdk
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\Plamera\.android\build-cache\2c3064c9eaf9f77a9b81cc82a47b0e253ac3e6ee\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-core:9.0.0] C:\Users\Plamera\.android\build-cache\c9e8b04edbef60ba2e0c4deb4c1e58365f6df613\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\fab70593b8045b84ef56c59f0a0c4435781edbe3\output\AndroidManifest.xml:18:5-42
-MERGED from [SWIFT_AGENT:iDPProxy:unspecified] C:\Users\Plamera\Desktop\SWIFT_AGENT\iDPProxy\build\intermediates\bundles\default\AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.volley:volley:unspecified] C:\Users\Plamera\Desktop\SWIFT_AGENT\volley\build\intermediates\bundles\default\AndroidManifest.xml:7:5-43
-MERGED from [com.actionbarsherlock:actionbarsherlock:4.4.0] C:\Users\Plamera\.android\build-cache\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\output\AndroidManifest.xml:3:3-70
-MERGED from [com.google.firebase:firebase-messaging:9.0.1] C:\Users\Plamera\.android\build-cache\4199a2dce5546d51799f8b50fd9667d97b386f3b\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\Plamera\.android\build-cache\3113013393b6c9f26aef1f4de82acc728f0c4433\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\Plamera\.android\build-cache\42c71345cf8f521c4705887626f85d509ea2fcb1\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\674a884e37dc41d9a5f5cf6cb547f075bf552983\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\0ccc6c51c8bdb694135d9a5b79bcb06c86abb191\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:9.0.1] C:\Users\Plamera\.android\build-cache\30dd5979ff82b132ba767ca4479a68db5a197e50\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Plamera\.android\build-cache\7676903a8141a8da2d840c4667b1bf8e6e8b4cf5\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Plamera\.android\build-cache\f092af42a2b82110d55624ef015ea28c489502e5\output\AndroidManifest.xml:20:5-43
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Plamera\.android\build-cache\5a68a8a485c1993e47782008a0576d88b7aff93d\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-core:9.0.0] C:\Users\Plamera\.android\build-cache\20277995fa3748157d6b6d0bfe9e29e19c003347\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\645b5b0c8a552ec6f0455956a74bbf7cf243a38b\output\AndroidManifest.xml:18:5-42
+MERGED from [SWIFT-AGENT-GIT:iDPProxy:unspecified] C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\iDPProxy\build\intermediates\bundles\default\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.volley:volley:unspecified] C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\volley\build\intermediates\bundles\default\AndroidManifest.xml:7:5-43
+MERGED from [com.actionbarsherlock:actionbarsherlock:4.4.0] C:\Users\Plamera\.android\build-cache\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\output\AndroidManifest.xml:3:3-70
+MERGED from [com.google.firebase:firebase-messaging:9.0.1] C:\Users\Plamera\.android\build-cache\72dc345671af4ab35b9772b082bfd826c9904f39\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\Plamera\.android\build-cache\39cc05c7e19ebbefb56598362b3f28669a74cfc3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\Plamera\.android\build-cache\a1b5125b9505bb869d3234b4aeb568c275fda905\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\c6f969045d8f1444deb9aa5d439e91777ce28760\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\4910b70bc33f955f06c90e31a270dbd5f338898c\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.1] C:\Users\Plamera\.android\build-cache\58eabae7c9d28492295d54ca20a6632161d90199\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Plamera\.android\build-cache\eb9b26955d6636575b1d50e8551757e59d832cc4\output\AndroidManifest.xml:18:5-42
+MERGED from [com.anggrayudi:android-hidden-api:0.0.7] C:\Users\Plamera\.android\build-cache\064d797e3294769943385d15b900e18f83210ce7\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Plamera\.android\build-cache\f18c916542f0a906cc0c7217978b3ba6d549865f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Plamera\.android\build-cache\81d9ed94748263fd40d3a26c84c32c5e3e237671\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Plamera\.android\build-cache\28bdab349f36b3e06d62a5aadb213de8195c27bf\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Plamera\.android\build-cache\915b5b9d649abb3ddc5d721a1caf938a86800233\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Plamera\.android\build-cache\9bf1b408082ee7a35dc9d9fdc16fb019b717fe55\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Plamera\.android\build-cache\db361eb146259c63347c82e5d5dac49b12dddde7\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Plamera\.android\build-cache\f18c916542f0a906cc0c7217978b3ba6d549865f\output\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:27:9-38
-		INJECTED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:27:9-38
+		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:26:9-35
-		INJECTED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:26:9-35
+		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:29:5-68
-MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\fab70593b8045b84ef56c59f0a0c4435781edbe3\output\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:22:5-68
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:29:5-68
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\645b5b0c8a552ec6f0455956a74bbf7cf243a38b\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:22:5-68
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:29:22-65
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:29:22-65
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:30:5-88
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:30:5-88
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:30:22-85
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:30:22-85
 uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:31:5-90
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:31:5-90
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:31:22-87
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:31:22-87
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:32:5-81
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:32:5-81
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:32:22-78
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:32:22-78
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:33:5-81
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:33:5-81
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:33:22-78
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:33:22-78
 uses-permission#org.wso2.emm.agent.permission.C2D_MESSAGE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:34:5-81
-MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:28:5-79
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:34:5-81
+MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:28:5-79
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:34:22-78
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:34:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:35:5-75
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:35:5-75
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:35:22-72
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:35:22-72
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:36:5-82
-MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\Plamera\.android\build-cache\3113013393b6c9f26aef1f4de82acc728f0c4433\output\AndroidManifest.xml:21:5-82
-MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\Plamera\.android\build-cache\42c71345cf8f521c4705887626f85d509ea2fcb1\output\AndroidManifest.xml:21:5-82
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:36:5-82
+MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\Plamera\.android\build-cache\39cc05c7e19ebbefb56598362b3f28669a74cfc3\output\AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\Plamera\.android\build-cache\a1b5125b9505bb869d3234b4aeb568c275fda905\output\AndroidManifest.xml:21:5-82
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:36:22-79
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:36:22-79
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:37:5-76
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:37:5-76
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:37:22-73
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:37:22-73
 uses-permission#android.permission.READ_LOGS
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:38:5-68
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:38:5-68
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:38:22-65
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:38:22-65
 uses-permission#android.permission.ACCESS_GPS
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:39:5-69
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:39:5-69
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:39:22-66
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:39:22-66
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:40:5-79
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:40:5-79
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:40:22-76
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:40:22-76
 uses-permission#android.permisssion.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:41:5-82
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:41:5-82
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:41:22-79
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:41:22-79
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:43:5-67
-MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\fab70593b8045b84ef56c59f0a0c4435781edbe3\output\AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\Plamera\.android\build-cache\3113013393b6c9f26aef1f4de82acc728f0c4433\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\Plamera\.android\build-cache\42c71345cf8f521c4705887626f85d509ea2fcb1\output\AndroidManifest.xml:22:5-67
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:43:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\645b5b0c8a552ec6f0455956a74bbf7cf243a38b\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\Plamera\.android\build-cache\39cc05c7e19ebbefb56598362b3f28669a74cfc3\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\Plamera\.android\build-cache\a1b5125b9505bb869d3234b4aeb568c275fda905\output\AndroidManifest.xml:22:5-67
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:43:22-64
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:43:22-64
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:44:5-71
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:44:5-71
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:44:22-68
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:44:22-68
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:45:5-76
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:45:5-76
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:45:22-73
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:45:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:46:5-79
-MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\fab70593b8045b84ef56c59f0a0c4435781edbe3\output\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:20:5-79
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:46:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\645b5b0c8a552ec6f0455956a74bbf7cf243a38b\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:46:22-76
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:46:22-76
 uses-permission#android.permission.INTERACT_ACROSS_USERS
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:47:5-80
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:47:5-80
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:47:22-77
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:47:22-77
 uses-permission#android.permission.GET_TASKS
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:48:5-68
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:48:5-68
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:48:22-65
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:48:22-65
 uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:49:5-88
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:49:5-88
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:49:22-85
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:49:22-85
 uses-permission#org.wso2.emm.system.service.permission.ACCESS
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:50:5-84
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:50:5-84
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:50:22-82
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:50:22-82
 permission#android.permission.READ_LOGS
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:51:5-63
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:51:5-63
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:51:17-60
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:51:17-60
 permission#org.wso2.emm.agent.permission.ACCESS
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:52:5-53:58
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:52:5-53:58
 	android:protectionLevel
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:53:9-44
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:53:9-44
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:52:17-68
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:52:17-68
 uses-permission#org.wso2.emm.agent.permission.ACCESS
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:54:5-75
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:54:5-75
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:54:22-73
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:54:22-73
 permission#org.wso2.emm.agent.permission.C2D_MESSAGE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:55:5-57:47
-MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:25:5-26:47
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:55:5-57:47
+MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:25:5-26:47
 	android:protectionLevel
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:57:9-44
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:57:9-44
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:56:9-65
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:56:9-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:59:5-61:38
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:59:5-61:38
 	android:maxSdkVersion
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:61:9-35
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:61:9-35
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:60:9-64
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:60:9-64
 application
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:63:5-244:19
-MERGED from [com.google.firebase:firebase-core:9.0.0] C:\Users\Plamera\.android\build-cache\c9e8b04edbef60ba2e0c4deb4c1e58365f6df613\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:26:5-41:19
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\fab70593b8045b84ef56c59f0a0c4435781edbe3\output\AndroidManifest.xml:26:5-41:19
-MERGED from [SWIFT_AGENT:iDPProxy:unspecified] C:\Users\Plamera\Desktop\SWIFT_AGENT\iDPProxy\build\intermediates\bundles\default\AndroidManifest.xml:28:5-32:19
-MERGED from [com.android.volley:volley:unspecified] C:\Users\Plamera\Desktop\SWIFT_AGENT\volley\build\intermediates\bundles\default\AndroidManifest.xml:9:5-20
-MERGED from [com.actionbarsherlock:actionbarsherlock:4.4.0] C:\Users\Plamera\.android\build-cache\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\output\AndroidManifest.xml:4:3-17
-MERGED from [com.google.firebase:firebase-messaging:9.0.1] C:\Users\Plamera\.android\build-cache\4199a2dce5546d51799f8b50fd9667d97b386f3b\output\AndroidManifest.xml:20:5-32:19
-MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:30:5-59:19
-MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\Plamera\.android\build-cache\3113013393b6c9f26aef1f4de82acc728f0c4433\output\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\Plamera\.android\build-cache\42c71345cf8f521c4705887626f85d509ea2fcb1\output\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\674a884e37dc41d9a5f5cf6cb547f075bf552983\output\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\0ccc6c51c8bdb694135d9a5b79bcb06c86abb191\output\AndroidManifest.xml:5:5-12:19
-MERGED from [com.google.android.gms:play-services-tasks:9.0.1] C:\Users\Plamera\.android\build-cache\30dd5979ff82b132ba767ca4479a68db5a197e50\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Plamera\.android\build-cache\7676903a8141a8da2d840c4667b1bf8e6e8b4cf5\output\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Plamera\.android\build-cache\f092af42a2b82110d55624ef015ea28c489502e5\output\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:63:5-247:19
+MERGED from [com.google.firebase:firebase-core:9.0.0] C:\Users\Plamera\.android\build-cache\20277995fa3748157d6b6d0bfe9e29e19c003347\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\645b5b0c8a552ec6f0455956a74bbf7cf243a38b\output\AndroidManifest.xml:26:5-41:19
+MERGED from [SWIFT-AGENT-GIT:iDPProxy:unspecified] C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\iDPProxy\build\intermediates\bundles\default\AndroidManifest.xml:28:5-32:19
+MERGED from [com.android.volley:volley:unspecified] C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\volley\build\intermediates\bundles\default\AndroidManifest.xml:9:5-20
+MERGED from [com.actionbarsherlock:actionbarsherlock:4.4.0] C:\Users\Plamera\.android\build-cache\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\output\AndroidManifest.xml:4:3-17
+MERGED from [com.google.firebase:firebase-messaging:9.0.1] C:\Users\Plamera\.android\build-cache\72dc345671af4ab35b9772b082bfd826c9904f39\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.android.gms:play-services-gcm:9.0.0] C:\Users\Plamera\.android\build-cache\39cc05c7e19ebbefb56598362b3f28669a74cfc3\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.0.0] C:\Users\Plamera\.android\build-cache\a1b5125b9505bb869d3234b4aeb568c275fda905\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\c6f969045d8f1444deb9aa5d439e91777ce28760\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\4910b70bc33f955f06c90e31a270dbd5f338898c\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.1] C:\Users\Plamera\.android\build-cache\58eabae7c9d28492295d54ca20a6632161d90199\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Plamera\.android\build-cache\eb9b26955d6636575b1d50e8551757e59d832cc4\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.anggrayudi:android-hidden-api:0.0.7] C:\Users\Plamera\.android\build-cache\064d797e3294769943385d15b900e18f83210ce7\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Plamera\.android\build-cache\f18c916542f0a906cc0c7217978b3ba6d549865f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Plamera\.android\build-cache\81d9ed94748263fd40d3a26c84c32c5e3e237671\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Plamera\.android\build-cache\28bdab349f36b3e06d62a5aadb213de8195c27bf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Plamera\.android\build-cache\915b5b9d649abb3ddc5d721a1caf938a86800233\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Plamera\.android\build-cache\9bf1b408082ee7a35dc9d9fdc16fb019b717fe55\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Plamera\.android\build-cache\db361eb146259c63347c82e5d5dac49b12dddde7\output\AndroidManifest.xml:29:5-20
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:69:9-45
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:69:9-45
 	android:label
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:67:9-41
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:67:9-41
 	android:allowBackup
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:65:9-35
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:65:9-35
 	android:icon
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:66:9-45
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:66:9-45
 	android:largeHeap
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:68:9-33
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:68:9-33
 	android:theme
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:70:9-43
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:70:9-43
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:64:9-41
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:64:9-41
 activity#org.wso2.emm.agent.RegistrationActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:71:9-74:59
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:71:9-74:59
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:73:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:73:13-49
 	android:theme
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:74:13-47
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:74:13-47
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:72:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:72:13-49
 activity#org.wso2.emm.agent.DisplayDeviceInfoActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:75:9-78:61
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:75:9-78:61
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:78:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:78:13-49
 	android:label
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:77:13-71
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:77:13-71
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:76:13-54
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:76:13-54
 activity#org.wso2.emm.agent.EnableDeviceAdminActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:79:9-83:58
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:79:9-83:58
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:82:13-52
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:82:13-52
 	android:label
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:81:13-71
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:81:13-71
 	android:excludeFromRecents
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:83:13-46
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:83:13-46
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:80:13-54
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:80:13-54
+service#org.wso2.emm.agent.BroadcastService
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:84:9-87:19
+	android:exported
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:86:13-36
+	android:name
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:85:13-45
 receiver#org.wso2.emm.agent.services.AgentDeviceAdminReceiver
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:85:9-98:20
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:88:9-101:20
 	android:exported
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:88:13-36
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:91:13-36
 	android:permission
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:87:13-70
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:90:13-70
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:86:13-62
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:89:13-62
 intent-filter#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:89:13-93:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:92:13-96:29
 action#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:92:17-82
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:95:17-82
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:92:25-79
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:95:25-79
 meta-data#android.app.device_admin
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:95:13-97:72
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:98:13-100:72
 	android:resource
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:97:17-59
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:100:17-59
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:96:17-56
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:99:17-56
 receiver#org.wso2.emm.agent.services.AlarmReceiver
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:99:9-60
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:102:9-60
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:99:19-57
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:102:19-57
 receiver#org.wso2.emm.agent.events.EventAlarmReceiver
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:100:9-63
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:103:9-63
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:100:19-60
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:103:19-60
 receiver#org.wso2.emm.agent.services.DeviceStartupIntentReceiver
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:101:9-111:20
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:104:9-114:20
 	android:enabled
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:103:13-35
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:106:13-35
 	android:exported
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:104:13-37
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:107:13-37
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:102:13-65
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:105:13-65
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.intent.category.DEFAULT
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:105:13-110:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:108:13-113:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:106:17-79
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:109:17-79
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:106:25-76
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:109:25-76
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:107:17-82
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:110:17-82
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:107:25-79
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:110:25-79
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:109:17-76
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:112:17-76
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:109:27-73
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:112:27-73
 receiver#org.wso2.emm.agent.services.NetworkConnectedReceiver
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:112:9-120:20
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:115:9-123:20
 	android:enabled
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:114:13-35
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:117:13-35
 	android:exported
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:115:13-37
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:118:13-37
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:113:13-62
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:116:13-62
 intent-filter#android.net.conn.CONNECTIVITY_CHANGE+android.net.wifi.WIFI_STATE_CHANGED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:116:13-119:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:119:13-122:29
 action#android.net.wifi.WIFI_STATE_CHANGED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:117:17-78
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:120:17-78
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:117:25-75
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:120:25-75
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:118:17-79
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:121:17-79
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:118:25-76
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:121:25-76
 receiver#org.wso2.emm.agent.services.NotificationReceiver
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:121:9-127:20
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:124:9-130:20
 	android:exported
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:123:13-37
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:126:13-37
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:122:13-58
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:125:13-58
 intent-filter#android.intent.category.DEFAULT
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:124:13-126:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:127:13-129:29
 receiver#org.wso2.emm.agent.services.SystemServiceResponseReceiver
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:128:9-134:20
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:131:9-137:20
 	android:exported
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:130:13-37
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:133:13-37
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:129:13-67
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:132:13-67
 receiver#org.wso2.emm.agent.events.listeners.ApplicationStateListener
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:135:9-144:20
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:138:9-147:20
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:135:19-76
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:138:19-76
 intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_DATA_CLEARED+android.intent.action.PACKAGE_REMOVED+android.intent.action.PACKAGE_REPLACED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:136:13-143:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:139:13-146:29
 action#android.intent.action.PACKAGE_ADDED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:137:17-78
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:140:17-78
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:137:25-75
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:140:25-75
 action#android.intent.action.PACKAGE_REMOVED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:138:17-80
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:141:17-80
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:138:25-77
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:141:25-77
 action#android.intent.action.PACKAGE_REPLACED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:139:17-81
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:142:17-81
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:139:25-78
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:142:25-78
 action#android.intent.action.PACKAGE_DATA_CLEARED
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:140:17-85
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:143:17-85
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:140:25-82
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:143:25-82
 data
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:142:17-50
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:145:17-50
 	android:scheme
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:142:23-47
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:145:23-47
 service#org.wso2.emm.agent.services.ApplicationManagementService
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:145:9-153:19
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:148:9-156:19
 	android:enabled
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:147:13-35
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:150:13-35
 	android:exported
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:149:13-36
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:152:13-36
 	android:permission
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:148:13-70
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:151:13-70
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:146:13-66
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:149:13-66
 intent-filter#org.wso2.emm.agent.START_SERVICE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:150:13-152:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:153:13-155:29
 action#org.wso2.emm.agent.START_SERVICE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:151:17-75
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:154:17-75
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:151:25-72
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:154:25-72
 service#org.wso2.emm.agent.services.EnrollmentService
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:154:9-161:19
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:157:9-164:19
 	android:enabled
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:155:13-35
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:158:13-35
 	android:exported
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:157:13-36
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:160:13-36
 	android:permission
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:156:13-70
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:159:13-70
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:154:18-60
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:157:18-60
 intent-filter#org.wso2.emm.agent.enrollment.START_SERVICE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:158:13-160:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:161:13-163:29
 action#org.wso2.emm.agent.enrollment.START_SERVICE
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:159:17-86
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:162:17-86
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:159:25-83
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:162:25-83
 service#org.wso2.emm.agent.FCMMessagingService
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:162:9-167:19
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:165:9-170:19
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:163:13-48
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:166:13-48
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:164:13-166:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:167:13-169:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:165:17-78
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:168:17-78
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:165:25-75
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:168:25-75
 service#org.wso2.emm.agent.services.VPNService
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:168:9-174:19
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:171:9-177:19
 	android:permission
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:170:13-69
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:173:13-69
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:169:13-48
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:172:13-48
 intent-filter#android.net.VpnService
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:171:13-173:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:174:13-176:29
 action#android.net.VpnService
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:172:17-65
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:175:17-65
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:172:25-62
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:175:25-62
 activity#org.wso2.emm.agent.AlreadyRegisteredActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:176:9-179:62
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:179:9-182:62
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:178:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:181:13-49
 	android:theme
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:179:13-50
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:182:13-50
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:177:13-54
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:180:13-54
 activity#org.wso2.emm.agent.AuthenticationActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:180:9-184:79
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:183:9-187:79
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:182:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:185:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:184:13-67
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:187:13-67
 	android:theme
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:183:13-50
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:186:13-50
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:181:13-51
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:184:13-51
 activity#org.wso2.emm.agent.AuthenticationErrorActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:185:9-187:61
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:188:9-190:61
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:187:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:190:13-49
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:186:13-56
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:189:13-56
 activity#org.wso2.emm.agent.NotifyActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:188:9-191:61
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:191:9-194:61
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:191:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:194:13-49
 	android:label
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:190:13-58
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:193:13-58
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:189:13-43
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:192:13-43
 activity#org.wso2.emm.agent.ServerDetails
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:192:9-196:79
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:195:9-199:79
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:195:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:198:13-49
 	android:label
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:194:13-45
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:197:13-45
 	android:windowSoftInputMode
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:196:13-67
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:199:13-67
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:193:13-42
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:196:13-42
 activity#org.wso2.emm.agent.PinCodeActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:197:9-200:79
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:200:9-203:79
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:199:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:202:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:200:13-67
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:203:13-67
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:198:13-44
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:201:13-44
 activity#org.wso2.emm.agent.AlertActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:201:9-204:85
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:204:9-207:85
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:203:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:206:13-49
 	android:theme
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:204:13-73
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:207:13-73
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:202:13-42
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:205:13-42
 activity#org.wso2.emm.agent.LockActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:205:9-208:68
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:208:9-211:68
 	android:label
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:208:13-56
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:211:13-56
 	android:configChanges
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:207:13-74
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:210:13-74
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:206:13-41
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:209:13-41
 activity#org.wso2.emm.agent.services.EnableProfileActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:210:9-212:57
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:213:9-215:57
 	android:label
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:212:13-45
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:215:13-45
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:211:13-59
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:214:13-59
 activity#org.wso2.emm.agent.WorkProfileManager
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:213:9-216:61
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:216:9-219:61
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:216:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:219:13-49
 	android:label
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:215:13-58
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:218:13-58
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:214:13-47
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:217:13-47
 activity#org.wso2.emm.agent.AgentReceptionActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:217:9-225:20
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:220:9-228:20
 	android:label
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:219:13-38
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:222:13-38
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:218:13-51
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:221:13-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:220:13-224:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:223:13-227:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:221:17-69
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:224:17-69
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:221:25-66
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:224:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:223:17-77
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:226:17-77
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:223:27-74
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:226:27-74
 activity#org.wso2.emm.agent.AppLockActivity
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:226:9-230:83
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:229:9-233:83
 	android:screenOrientation
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:229:13-49
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:232:13-49
 	android:label
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:228:13-57
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:231:13-57
 	android:theme
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:230:13-71
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:233:13-71
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:227:13-44
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:230:13-44
 service#org.wso2.emm.agent.services.AppLockService
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:232:9-235:40
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:235:9-238:40
 	android:exported
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:235:13-37
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:238:13-37
 	android:permission
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:234:13-70
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:237:13-70
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:233:13-52
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:236:13-52
 service#org.wso2.emm.agent.InstanceIDListenerService
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:237:9-242:19
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:240:9-245:19
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:238:13-54
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:241:13-54
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:239:13-241:29
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:242:13-244:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:240:13-76
+ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:243:13-76
 	android:name
-		ADDED from C:\Users\Plamera\Desktop\SWIFT_AGENT\client\src\main\AndroidManifest.xml:240:21-73
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:243:21-73
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:28:7-34:18
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\fab70593b8045b84ef56c59f0a0c4435781edbe3\output\AndroidManifest.xml:28:7-34:18
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\645b5b0c8a552ec6f0455956a74bbf7cf243a38b\output\AndroidManifest.xml:28:7-34:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:30:11-33
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:30:11-33
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:29:11-83
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:29:11-83
 intent-filter#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:31:9-33:25
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:31:9-33:25
 action#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:32:11-77
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:32:11-77
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:32:19-75
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:32:19-75
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:36:7-39:37
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\fab70593b8045b84ef56c59f0a0c4435781edbe3\output\AndroidManifest.xml:36:7-39:37
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Plamera\.android\build-cache\645b5b0c8a552ec6f0455956a74bbf7cf243a38b\output\AndroidManifest.xml:36:7-39:37
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:38:11-33
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:38:11-33
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:39:11-35
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:39:11-35
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\528af1784c012f2f7e555a66417b899dd39c3a49\output\AndroidManifest.xml:37:11-82
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Plamera\.android\build-cache\8338e0e1362ad0d299f9320e2e2e90e8d40f716a\output\AndroidManifest.xml:37:11-82
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:9.0.1] C:\Users\Plamera\.android\build-cache\4199a2dce5546d51799f8b50fd9667d97b386f3b\output\AndroidManifest.xml:24:9-30:19
+ADDED from [com.google.firebase:firebase-messaging:9.0.1] C:\Users\Plamera\.android\build-cache\72dc345671af4ab35b9772b082bfd826c9904f39\output\AndroidManifest.xml:24:9-30:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:9.0.1] C:\Users\Plamera\.android\build-cache\4199a2dce5546d51799f8b50fd9667d97b386f3b\output\AndroidManifest.xml:26:13-36
+		ADDED from [com.google.firebase:firebase-messaging:9.0.1] C:\Users\Plamera\.android\build-cache\72dc345671af4ab35b9772b082bfd826c9904f39\output\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:9.0.1] C:\Users\Plamera\.android\build-cache\4199a2dce5546d51799f8b50fd9667d97b386f3b\output\AndroidManifest.xml:25:13-82
+		ADDED from [com.google.firebase:firebase-messaging:9.0.1] C:\Users\Plamera\.android\build-cache\72dc345671af4ab35b9772b082bfd826c9904f39\output\AndroidManifest.xml:25:13-82
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:32:9-41:20
+ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:32:9-41:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:34:13-36
+		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:34:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:35:13-73
+		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:35:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:33:13-78
+		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:33:13-78
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:36:13-40:29
+ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:36:13-40:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:37:17-81
+ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:37:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:37:25-78
+		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:37:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:38:17-86
+ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:38:17-86
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:38:25-83
+		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:38:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:39:17-61
+ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:39:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:39:27-58
+		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:39:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:45:9-47:40
+ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:45:9-47:40
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:47:13-37
+		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:46:13-86
+		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:46:13-86
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:51:9-57:19
+ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:51:9-57:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:53:13-36
+		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:53:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\dee84659753bce3ac7d04686b3a70da200614a77\output\AndroidManifest.xml:52:13-77
+		ADDED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Plamera\.android\build-cache\05367c73949cc8cf8c5079149a369179ec9a807e\output\AndroidManifest.xml:52:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\674a884e37dc41d9a5f5cf6cb547f075bf552983\output\AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\c6f969045d8f1444deb9aa5d439e91777ce28760\output\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\674a884e37dc41d9a5f5cf6cb547f075bf552983\output\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\c6f969045d8f1444deb9aa5d439e91777ce28760\output\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\674a884e37dc41d9a5f5cf6cb547f075bf552983\output\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\c6f969045d8f1444deb9aa5d439e91777ce28760\output\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\674a884e37dc41d9a5f5cf6cb547f075bf552983\output\AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Plamera\.android\build-cache\c6f969045d8f1444deb9aa5d439e91777ce28760\output\AndroidManifest.xml:20:19-85
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\0ccc6c51c8bdb694135d9a5b79bcb06c86abb191\output\AndroidManifest.xml:7:9-11:39
+ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\4910b70bc33f955f06c90e31a270dbd5f338898c\output\AndroidManifest.xml:7:9-11:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\0ccc6c51c8bdb694135d9a5b79bcb06c86abb191\output\AndroidManifest.xml:8:13-72
+		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\4910b70bc33f955f06c90e31a270dbd5f338898c\output\AndroidManifest.xml:8:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\0ccc6c51c8bdb694135d9a5b79bcb06c86abb191\output\AndroidManifest.xml:10:13-37
+		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\4910b70bc33f955f06c90e31a270dbd5f338898c\output\AndroidManifest.xml:10:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\0ccc6c51c8bdb694135d9a5b79bcb06c86abb191\output\AndroidManifest.xml:11:13-36
+		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\4910b70bc33f955f06c90e31a270dbd5f338898c\output\AndroidManifest.xml:11:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\0ccc6c51c8bdb694135d9a5b79bcb06c86abb191\output\AndroidManifest.xml:9:13-58
+		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\Plamera\.android\build-cache\4910b70bc33f955f06c90e31a270dbd5f338898c\output\AndroidManifest.xml:9:13-58
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Plamera\.android\build-cache\7676903a8141a8da2d840c4667b1bf8e6e8b4cf5\output\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Plamera\.android\build-cache\eb9b26955d6636575b1d50e8551757e59d832cc4\output\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Plamera\.android\build-cache\7676903a8141a8da2d840c4667b1bf8e6e8b4cf5\output\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Plamera\.android\build-cache\eb9b26955d6636575b1d50e8551757e59d832cc4\output\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Plamera\.android\build-cache\7676903a8141a8da2d840c4667b1bf8e6e8b4cf5\output\AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Plamera\.android\build-cache\eb9b26955d6636575b1d50e8551757e59d832cc4\output\AndroidManifest.xml:22:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Plamera\.android\build-cache\f18c916542f0a906cc0c7217978b3ba6d549865f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Plamera\.android\build-cache\81d9ed94748263fd40d3a26c84c32c5e3e237671\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Plamera\.android\build-cache\28bdab349f36b3e06d62a5aadb213de8195c27bf\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Plamera\.android\build-cache\915b5b9d649abb3ddc5d721a1caf938a86800233\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Plamera\.android\build-cache\9bf1b408082ee7a35dc9d9fdc16fb019b717fe55\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Plamera\.android\build-cache\db361eb146259c63347c82e5d5dac49b12dddde7\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Plamera\.android\build-cache\f18c916542f0a906cc0c7217978b3ba6d549865f\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Plamera\.android\build-cache\f18c916542f0a906cc0c7217978b3ba6d549865f\output\AndroidManifest.xml:26:9-47

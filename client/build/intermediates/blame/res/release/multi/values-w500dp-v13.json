@@ -1,5 +1,53 @@
 [
     {
+        "outputFile": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\values-w500dp\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 55,
+                        "endOffset": 231
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\values-w500dp\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 55,
+                        "endOffset": 231
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT_AGENT\\client\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
         "map": [
             {

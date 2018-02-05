@@ -4,6 +4,14 @@
         "source": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\src\\main\\res\\xml\\share_paths.xml"
     },
     {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\debug\\xml\\share_paths.xml",
+        "source": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\xml\\share_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\debug\\xml\\agent_device_admin.xml",
+        "source": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\xml\\agent_device_admin.xml"
+    },
+    {
         "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\debug\\xml\\agent_device_admin.xml",
         "source": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\src\\main\\res\\xml\\agent_device_admin.xml"
     }

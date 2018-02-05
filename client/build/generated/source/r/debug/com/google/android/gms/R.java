@@ -161,7 +161,7 @@ public final class R {
         public static final int edit_query = 0x7f0c005b;
         public static final int homeAsUp = 0x7f0c0039;
         public static final int icon_only = 0x7f0c003f;
-        public static final int info = 0x7f0c00a8;
+        public static final int info = 0x7f0c00aa;
         public static final int light = 0x7f0c0044;
         public static final int listMode = 0x7f0c0035;
         public static final int none = 0x7f0c0034;
@@ -171,7 +171,7 @@ public final class R {
         public static final int showTitle = 0x7f0c003c;
         public static final int standard = 0x7f0c0040;
         public static final int tabMode = 0x7f0c0037;
-        public static final int text = 0x7f0c009d;
+        public static final int text = 0x7f0c009f;
         public static final int useLogo = 0x7f0c003d;
         public static final int wide = 0x7f0c0041;
         public static final int wrap_content = 0x7f0c003e;

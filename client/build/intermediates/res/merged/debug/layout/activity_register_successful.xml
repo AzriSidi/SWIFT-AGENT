@@ -32,6 +32,7 @@
             android:layout_marginTop="10dp"
             android:padding="10dp">
 
+            <!--@string/txt_register_success-->
             <TextView
                 android:id="@+id/incompatibleError"
                 android:layout_width="wrap_content"
@@ -40,7 +41,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_margin="10dp"
                 android:gravity="center"
-                android:text="@string/txt_register_success"
+                android:text="layout success register"
                 android:textColor="#372c24"
                 android:textSize="16sp" />
 
@@ -63,7 +64,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="19dp"
                 android:background="@drawable/btn_orange"
-                android:text="@string/txt_unregister" />
+                android:text="@string/txt_unregister"/>
         </RelativeLayout>
     </RelativeLayout>
 

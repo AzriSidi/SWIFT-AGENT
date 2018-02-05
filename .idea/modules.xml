@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SWIFT_AGENT.iml" filepath="$PROJECT_DIR$/SWIFT_AGENT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SWIFT-AGENT-GIT.iml" filepath="$PROJECT_DIR$/SWIFT-AGENT-GIT.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/iDPProxy/iDPProxy.iml" filepath="$PROJECT_DIR$/iDPProxy/iDPProxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />

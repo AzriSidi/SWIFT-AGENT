@@ -17,9 +17,10 @@
  ~ under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="org.wso2.emm.agent"
     android:sharedUserId="org.wso2.emm.agent"
-    android:versionCode="4"
+    android:versionCode="5"
     android:versionName="3.0.1">
 
     <uses-sdk
@@ -50,7 +51,7 @@
     <uses-permission android:name="org.wso2.emm.system.service.permission.ACCESS"/>
     <permission android:name="android.permission.READ_LOGS" />
     <permission android:name="org.wso2.emm.agent.permission.ACCESS"
-        android:protectionLevel="signature"></permission>
+        android:protectionLevel="signature"/>
     <uses-permission android:name="org.wso2.emm.agent.permission.ACCESS"/>
     <permission
         android:name="org.wso2.emm.agent.permission.C2D_MESSAGE"
@@ -66,25 +67,26 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
+        android:debuggable="true"
         android:screenOrientation="portrait"
-        android:theme="@style/TopBarTheme">
+        android:theme="@style/TopBarTheme"
+        tools:ignore="HardcodedDebugMode">
         <activity
             android:name=".RegistrationActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/TopBarTheme"></activity>
+            android:theme="@style/TopBarTheme" />
         <activity
             android:name=".DisplayDeviceInfoActivity"
             android:label="@string/title_activity_display_device_info"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".EnableDeviceAdminActivity"
             android:label="@string/title_activity_display_device_info"
             android:screenOrientation="unspecified"
-            android:excludeFromRecents="true"></activity>
+            android:excludeFromRecents="true"/>
         <service
             android:name=".BroadcastService"
-            android:exported="true">
-        </service>
+            android:exported="true"/>
         <receiver
             android:name=".services.AgentDeviceAdminReceiver"
             android:permission="android.permission.BIND_DEVICE_ADMIN"
@@ -97,7 +99,7 @@
 
             <meta-data
                 android:name="android.app.device_admin"
-                android:resource="@xml/agent_device_admin"></meta-data>
+                android:resource="@xml/agent_device_admin"/>
         </receiver>
         <receiver android:name=".services.AlarmReceiver" />
         <receiver android:name=".events.EventAlarmReceiver" />
@@ -179,44 +181,44 @@
         <activity
             android:name=".AlreadyRegisteredActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.Sherlock"></activity>
+            android:theme="@style/Theme.Sherlock"/>
         <activity
             android:name=".AuthenticationActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock"
-            android:windowSoftInputMode="stateUnchanged|adjustPan"></activity>
+            android:windowSoftInputMode="stateUnchanged|adjustPan"/>
         <activity
             android:name=".AuthenticationErrorActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".NotifyActivity"
             android:label="@string/title_activity_notify"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ServerDetails"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateUnchanged|adjustPan"></activity>
+            android:windowSoftInputMode="stateUnchanged|adjustPan"/>
         <activity
             android:name=".PinCodeActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateUnchanged|adjustPan"></activity>
+            android:windowSoftInputMode="stateUnchanged|adjustPan"/>
         <activity
             android:name=".AlertActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"></activity>
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"/>
         <activity
             android:name=".LockActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_lock"></activity>
+            android:label="@string/title_activity_lock"/>
         <!-- Managed Profile Manifest items -->
         <activity
             android:name=".services.EnableProfileActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name"/>
         <activity
             android:name=".WorkProfileManager"
             android:label="@string/title_activity_notify"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".AgentReceptionActivity"
             android:label="EMM Agent">
@@ -230,7 +232,7 @@
             android:name=".AppLockActivity"
             android:label="@string/title_activity_alert"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
 
         <service
             android:name=".services.AppLockService"

@@ -1,5 +1,5 @@
--injars 'C:\Users\Plamera\Desktop\SWIFT_AGENT\client\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'C:\Users\Plamera\Desktop\SWIFT_AGENT\client\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\build\intermediates\multi-dex\debug\componentClasses.jar'
 
 -libraryjars 'C:\Users\Plamera\AppData\Local\Android\Sdk\build-tools\25.0.0\lib\shrinkedAndroid.jar'
 
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration 'C:\Users\Plamera\Desktop\SWIFT_AGENT\client\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep public class * extends android.app.Instrumentation {

@@ -22,5 +22,29 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\values-w600dp\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 55,
+                        "endOffset": 231
+                    }
+                }
+            }
+        ]
     }
 ]

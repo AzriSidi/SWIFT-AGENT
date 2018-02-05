@@ -19,8 +19,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.wso2.emm.agent"
     android:sharedUserId="org.wso2.emm.agent"
-    android:versionCode="2"
-    android:versionName="2.0" >
+    android:versionCode="4"
+    android:versionName="3.0.1" >
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -64,6 +64,10 @@
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
 
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
     <application
         android:name="org.wso2.emm.agent.AgentApplication"
         android:allowBackup="true"
@@ -85,6 +89,11 @@
             android:excludeFromRecents="true"
             android:label="@string/title_activity_display_device_info"
             android:screenOrientation="unspecified" />
+
+        <service
+            android:name="org.wso2.emm.agent.BroadcastService"
+            android:exported="true" >
+        </service>
 
         <receiver
             android:name="org.wso2.emm.agent.services.AgentDeviceAdminReceiver"

@@ -180,9 +180,7 @@ public class AlreadyRegisteredActivity extends SherlockActivity implements APIRe
 					break;
 
 				case TAG_BTN_CLOSE:
-					Intent intent = new Intent(Intent.ACTION_MAIN);
-					intent.addCategory(Intent.CATEGORY_HOME);
-					startActivity(intent);
+					loadHomeScreen();
 					break;
 
 				default:
@@ -261,6 +259,7 @@ public class AlreadyRegisteredActivity extends SherlockActivity implements APIRe
 				return true;
 			case R.id.ip_setting:
 				loadServerDetailsActivity();
+				loadHomeScreen();
 				return true;
 			default:
 				return super.onOptionsItemSelected(item);
@@ -410,11 +409,11 @@ public class AlreadyRegisteredActivity extends SherlockActivity implements APIRe
 	 */
 
 	private void loadHomeScreen() {
-		Intent i = new Intent();
-		i.setAction(Intent.ACTION_MAIN);
-		i.addCategory(Intent.CATEGORY_HOME);
-		this.startActivity(i);
-		super.onBackPressed();
+		this.finish();
+		Intent intent = new Intent(Intent.ACTION_MAIN);
+		intent.addCategory(Intent.CATEGORY_HOME);
+		intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		startActivity(intent);
 	}
 
 	/**

@@ -13,8 +13,8 @@ com/actionbarsherlock/view/ActionProvider$SubUiVisibilityListener.class
 android/support/v4/app/NotificationCompatBase$Action$Factory.class
 android/support/v4/app/NotificationCompat$Extender.class
 com/actionbarsherlock/R$attr.class
-com/google/firebase/FirebaseException.class
 com/fasterxml/jackson/databind/deser/std/PrimitiveArrayDeserializers$IntDeser.class
+com/google/firebase/FirebaseException.class
 android/support/v4/view/MenuCompat.class
 android/support/v4/media/session/MediaControllerCompat.class
 com/google/gson/JsonNull.class
@@ -55,8 +55,8 @@ com/fasterxml/jackson/databind/PropertyNamingStrategy$LowerCaseStrategy.class
 com/google/android/gms/internal/zztc.class
 android/support/annotation/Dimension.class
 android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.class
-com/anggrayudi/hiddenapi/r/Rc$style.class
 com/google/android/gms/gcm/Task.class
+com/anggrayudi/hiddenapi/r/Rc$style.class
 com/actionbarsherlock/internal/view/menu/MenuPresenter$Callback.class
 android/support/v4/widget/MaterialProgressDrawable.class
 com/actionbarsherlock/internal/view/menu/MenuWrapper.class
@@ -523,8 +523,8 @@ com/fasterxml/jackson/databind/introspect/VisibilityChecker$Std.class
 android/support/v4/view/ViewCompat$FocusRelativeDirection.class
 android/support/v4/media/session/PlaybackStateCompat$MediaKeyAction.class
 com/google/android/gms/internal/zznv.class
-com/google/android/gms/common/data/DataBuffer.class
 com/fasterxml/jackson/databind/type/TypeBase.class
+com/google/android/gms/common/data/DataBuffer.class
 com/fasterxml/jackson/databind/ser/std/CollectionSerializer.class
 com/fasterxml/jackson/databind/deser/std/NumberDeserializers$FloatDeserializer.class
 com/anggrayudi/hiddenapi/r/Rc$styleable.class

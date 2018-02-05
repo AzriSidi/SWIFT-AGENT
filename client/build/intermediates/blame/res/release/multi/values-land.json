@@ -1,5 +1,124 @@
 [
     {
+        "outputFile": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-land\\values-land.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 178,
+                        "endColumn": 62,
+                        "endOffset": 236
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 118,
+                    "endColumn": 68,
+                    "endOffset": 182
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 241,
+                        "endColumn": 68,
+                        "endOffset": 305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 187,
+                    "endColumn": 69,
+                    "endOffset": 252
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 69,
+                        "endOffset": 375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 257,
+                    "endColumn": 65,
+                    "endOffset": 318
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 380,
+                        "endColumn": 65,
+                        "endOffset": 441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 323,
+                    "endColumn": 66,
+                    "endOffset": 385
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 446,
+                        "endColumn": 66,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 390,
+                    "endColumn": 62,
+                    "endOffset": 448
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 513,
+                        "endColumn": 62,
+                        "endOffset": 571
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT_AGENT\\client\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
@@ -107,6 +226,125 @@
                 },
                 "from": {
                     "file": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 513,
+                        "endColumn": 62,
+                        "endOffset": 571
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-land\\values-land.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 178,
+                        "endColumn": 62,
+                        "endOffset": 236
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 118,
+                    "endColumn": 68,
+                    "endOffset": 182
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 241,
+                        "endColumn": 68,
+                        "endOffset": 305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 187,
+                    "endColumn": 69,
+                    "endOffset": 252
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 69,
+                        "endOffset": 375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 257,
+                    "endColumn": 65,
+                    "endOffset": 318
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 380,
+                        "endColumn": 65,
+                        "endOffset": 441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 323,
+                    "endColumn": 66,
+                    "endOffset": 385
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 446,
+                        "endColumn": 66,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 390,
+                    "endColumn": 62,
+                    "endOffset": 448
+                },
+                "from": {
+                    "file": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\values-land\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

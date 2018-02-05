@@ -1,10 +1,26 @@
 [
     {
+        "merged": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\release\\layout-v14\\sherlock_spinner_item.xml",
+        "source": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\layout-v14\\sherlock_spinner_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\release\\layout-v14\\sherlock_spinner_dropdown_item.xml",
         "source": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\layout-v14\\sherlock_spinner_dropdown_item.xml"
     },
     {
+        "merged": "C:\\Users\\Plamera\\Documents\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\release\\layout-v14\\sherlock_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Plamera\\.android\\build-cache\\d1dae9e76e167cdd3850ab34ad846b5e03af8c76\\output\\res\\layout-v14\\sherlock_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\release\\layout-v14\\sherlock_spinner_item.xml",
+        "source": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\layout-v14\\sherlock_spinner_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\release\\layout-v14\\sherlock_spinner_item.xml",
         "source": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\layout-v14\\sherlock_spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\release\\layout-v14\\sherlock_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Plamera\\.android\\build-cache\\7a3bd7d3daefb2ec766729dac2b2df18bec501a9\\output\\res\\layout-v14\\sherlock_spinner_dropdown_item.xml"
     }
 ]

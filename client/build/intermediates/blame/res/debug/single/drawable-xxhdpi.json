@@ -1,11 +1,23 @@
 [
     {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo_dark.png",
+        "source": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_logo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_bookmark.png",
+        "source": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_bookmark.png"
+    },
+    {
         "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_check_selected.png",
         "source": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_check_selected.png"
     },
     {
         "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo.png",
         "source": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_check_default.png",
+        "source": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_check_default.png"
     },
     {
         "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo_dark.png",
@@ -16,8 +28,16 @@
         "source": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_bookmark.png"
     },
     {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_check_selected.png",
+        "source": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_check_selected.png"
+    },
+    {
         "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\repeat_bg.png",
@@ -26,5 +46,13 @@
     {
         "merged": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_check_default.png",
         "source": "C:\\Users\\Plamera\\Desktop\\SWIFT_AGENT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_check_default.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo.png",
+        "source": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\drawable-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\repeat_bg.png",
+        "source": "C:\\Users\\Plamera\\AndroidStudioProjects\\SWIFT-AGENT-GIT\\client\\src\\main\\res\\drawable-xxhdpi\\repeat_bg.png"
     }
 ]
