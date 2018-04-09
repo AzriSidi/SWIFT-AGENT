@@ -88,8 +88,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="commons-codec:commons-codec:20041127.091804@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-codec:commons-codec:20041127.091804@jar" level="project" />
     <orderEntry type="module" module-name="volley" exported="" />
-    <orderEntry type="library" exported="" name="android-android-22" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: android-android-22" level="project" />
   </component>
 </module>

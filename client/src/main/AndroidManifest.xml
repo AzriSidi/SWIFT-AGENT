@@ -20,8 +20,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="org.wso2.emm.agent"
     android:sharedUserId="org.wso2.emm.agent"
-    android:versionCode="5"
-    android:versionName="3.0.1">
+    android:versionCode="10"
+    android:versionName="3.0.3">
 
     <uses-sdk
         android:minSdkVersion="16"

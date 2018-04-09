@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.anggrayudi:android-hidden-api-0.0.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/064d797e3294769943385d15b900e18f83210ce7/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/064d797e3294769943385d15b900e18f83210ce7/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anggrayudi/android-hidden-api/0.0.7/6f32d294870362db7fd0a4b1fd4b681f60934675/android-hidden-api-0.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

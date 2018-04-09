@@ -14,7 +14,7 @@ ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\mai
 	xmlns:tools
 		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:20:5-51
 	android:versionCode
-		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:23:5-28
+		ADDED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml:23:5-29
 		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Plamera\AndroidStudioProjects\SWIFT-AGENT-GIT\client\src\main\AndroidManifest.xml
 	xmlns:android
